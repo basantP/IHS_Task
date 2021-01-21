@@ -1,20 +1,14 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 using IHS_Task.AUT;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
 namespace IHS_Task
 {
     [TestFixture]
-    public class TaskTest : AutClass
+    public class Tast2Test : AutClass
     {
         [Test]
         public void ClickRunAndCheckOutPut_Test()
@@ -26,6 +20,7 @@ namespace IHS_Task
         }
 
         [Test]
+        [Obsolete]
         public void DoAsYourNameStarts_Test()
         {
             //String nameInput = "Austin";
